@@ -19,8 +19,7 @@ Download: [.NET SDK.](https://dotnet.microsoft.com/download)
 
 # Setup Instructions
 1. Clone the Repository: Clone this repository to your local machine:
-git clone https://github.com/your-username/your-repo-name.git
-
+- git clone https://github.com/niketsathe1997/MyNunitProject.git
 2. Open the Project: Open the solution file (MyNunitProject.sln) in Visual Studio.
 
 3. Restore Dependencies: Restore the required NuGet packages:
@@ -34,10 +33,10 @@ git clone https://github.com/your-username/your-repo-name.git
 
 ### Option 2: Using the Command Line
 - Open a terminal in the project directory.
-- Run the following command to execute the tests
-  dotnet test
-This will run all the tests and display the results in the terminal.
+- Run the following command to execute the tests    
+--> dotnet test
 
+  This will run all the tests and display the results in the terminal
 
 
 ## Test Report

@@ -44,7 +44,7 @@ namespace MyNunitProject
             TestContext.WriteLine("Response: " + response.Content);
         }
 
-        // POST Request: Create a new post
+        // POST Request: Create  new post
         [Test]
         public void CreateNewPost_ShouldReturnCreatedPost()
         {

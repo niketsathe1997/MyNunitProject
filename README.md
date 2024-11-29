@@ -1,6 +1,6 @@
 # MyNunitProject
 
- This project contains automated tests for the JSONPlaceholder RESTful API using NUnit and RestSharp. The tests include GET, POST, PUT, and DELETE requests to validate the functionality of the API.
+ This project contains automated tests for the JSONPlaceholder RESTful API using NUnit . The tests include GET, POST, PUT, and DELETE requests to validate the functionality of the API.
 
 ## Prerequisites
 Before running the tests, ensure that you have the following installed:
@@ -43,15 +43,15 @@ Download: [.NET SDK.](https://dotnet.microsoft.com/download)
 ## Test Report
 ### Generating HTML Reports
 The test results can be saved as HTML reports for easier review. To generate reports:
-1. Run the tests using the dotnet test command with a results file output:
-# To be tested 
-Open the generated TestReport.html file in a browser to view the test results.
+1. Run the tests using the dotnet test command with a results file output:  
+$ dotnet test --logger "html;logFile=TestResults.html"  
+HTMl report will be generated in the current directory.
 
 ## Logs
 Each test logs the following details:
 
-- Request: The HTTP method, endpoint, headers, and body.
+- Request: The HTTP method, endpoint, and body.
 - Response: The status code and response body.
-Logs can be found in the output of the test run.
+Logs can be found in the output of the test run and also in the HTML Report.
 
 

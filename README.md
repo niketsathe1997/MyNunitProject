@@ -15,7 +15,8 @@ Download: [.NET SDK.](https://dotnet.microsoft.com/download)
 - The project uses the following dependencies:
 - RestSharp: For making HTTP requests.
 - NUnit: For test framework.
-- Newtonsoft.Json: For JSON parsing.
+- Newtonsoft.Json: For JSON parsing
+- NUnit3TestAdapter
 
 # Setup Instructions
 1. Clone the Repository: Clone this repository to your local machine:
